@@ -99,7 +99,8 @@ export default function Footer() {
         </Grid>
         <Grid item md={6} lg={4}>
           <FooterTitle variant="body1">Get on the list</FooterTitle>
-          <FooterTitle variant="p">Get on the list</FooterTitle>
+          <FooterTitle variant="p">WHAT'S INSIDE? NEW ARRIVALS, EXCLUSIVE SALES, INSPIRATION AND MUCH MORE
+</FooterTitle>
           <Stack>
             <SubscribeTf
               color="primary"
