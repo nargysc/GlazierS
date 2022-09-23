@@ -30,28 +30,28 @@ export const products = [
     },
     {
         id: 5,
-        name: "Super Future Necklase",
+        name: "Super Future Necklace",
         price: 399.99,
         description: "For loved ones",
         image: "/images/products/pic10.jpg"
     },
     {
         id: 6,
-        name: "Bond Silver Necklases",
+        name: "Bond Silver Necklaces",
         price: 78.99,
         description: "Charming Series",
         image: "/images/products/pic11.jpg"
     },
      {
         id: 7,
-        name: "DIAMONDS SOLITAIRE LOCK",
+        name: "Diamonds Solitare Lock",
         price: 442.99,
-        description: "BONDING TIME",
+        description: "Bonding Time",
         image: "/images/products/pic12.jpg"
     },
      {
         id: 8,
-        name: "DIAMOND RING",
+        name: "Diamond Ring",
         price: 835.99,
         description: "All you need",
         image: "/images/products/pic14.jpg"

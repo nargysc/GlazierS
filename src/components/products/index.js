@@ -4,7 +4,6 @@ import SingleProduct from "./SingleProduct";
 import { useTheme } from "@mui/material/styles";
 import { useMediaQuery } from "@mui/material";
 import SingleProductDesktop from "./SingleProductDesktop";
-import product from "../../styles/product";
 
 export default function Products() {
   const theme = useTheme();
