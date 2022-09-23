@@ -14,7 +14,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { Colors } from "../../styles/theme";
 import styled from "@emotion/styled";
 import { ProductAddToCart, Product, ProductImage } from "../../styles/product";
-import { BannerShopButton } from "../../styles/banner";
+import { WrapperShopButton } from "../../styles/wrapper";
 import IncDec from "../ui/incdec";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";

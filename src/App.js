@@ -4,7 +4,7 @@ import { Container, Typography, Box, Stack, Grid, Button } from "@mui/material";
 import Appbar from "./components/appbar";
 import { ThemeProvider } from "@mui/system";
 import theme from "./styles/theme";
-import Banner from "./components/banner";
+import Wrapper from "./components/wrapper";
 import Products from "./components/products";
 import { UIProvider } from "./context/ui";
 import Footer from "./components/footer";
@@ -28,7 +28,7 @@ function App() {
         <Stack>
           <UIProvider>
             <Appbar />
-            <Banner />
+            <Wrapper />
             <Promotions />
             <SearchBox />
             <Box display="flex" justifyContent="center" sx={{ p: 4 }}>
