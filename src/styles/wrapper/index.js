@@ -4,6 +4,7 @@ import { Colors } from "../theme";
 
 export const WrapperContainer = styled(Box)(({ matches, theme }) => ({
   display: "flex",
+  marginTop:"10px",
   justifyContent: "center",
   width: "90%",
   height: "80%",
@@ -15,9 +16,6 @@ export const WrapperContainer = styled(Box)(({ matches, theme }) => ({
     flexDirection: "column",
     alignItems: "center",
   },
-  // backgroundImage: `url(/images/banner/banner.png)`,
-  // backgroundRepeat: "no-repeat",
-  // backgroundPosition: "center",
 }));
 
 export const WrapperContent = styled(Box)(() => ({
@@ -72,20 +70,24 @@ export const WrapperShopButton = styled(Button, {
   slot: "Root",
   overridesResolver: (props, styles) => [
     styles.root,
-    props.color === "primary" && styles.secondary,
     props.color === "secondary" && styles.primary,
+    props.color === "primary" && styles.secondary,
   ],
 })(({ theme }) => ({
   padding: "20px 0px",
-  color: Colors.primary,
+  color: Colors.secondary,
   fontWeight: "bold",
-  backgroundColor: Colors.secondary,
+  backgroundColor: Colors.primary,
+   "&:hover": { backgroundColor: Colors.secondary,
+    color: Colors.primary},
   fontSize: "16px",
   borderRadius: "20px",
 
   [theme.breakpoints.down("sm")]: {
     padding: "10px 0px",
     fontSize: "14px",
-    backgroundColor: Colors.secondary,
+    backgroundColor: Colors.primary,
+     "&:hover": { backgroundColor: Colors.secondary,
+    color: Colors.primary},
   },
 }));

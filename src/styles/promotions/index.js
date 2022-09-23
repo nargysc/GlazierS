@@ -10,7 +10,7 @@ export const PromotionsContainer = styled(Box)(({ theme }) => ({
   justifyContent: "center",
   alignItems: "center",
    borderRadius:"20px",
-   margin:"10px",
+   margin:"50px",
   padding: "20px 0px 20px 0px",
   overflow: "hidden",
   background: Colors.secondary,

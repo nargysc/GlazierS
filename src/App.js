@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Container, Typography, Box, Stack, Grid, Button } from "@mui/material";
+import { Container, Typography, Box, Stack } from "@mui/material";
 import Appbar from "./components/appbar";
 import { ThemeProvider } from "@mui/system";
 import theme from "./styles/theme";
