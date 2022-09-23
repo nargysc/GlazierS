@@ -23,21 +23,21 @@ export const products = [
     },
     {
         id: 4,
-        name: "LITTLE CROWN EARRINGS",
+        name: "Little Crown Earrings",
         price: 129.99,
         description: "Zirconia",
         image: "/images/products/pic8.jpg"
     },
     {
         id: 5,
-        name: "SUPER FUTURE NECKLACE",
+        name: "Super Future Necklase",
         price: 399.99,
         description: "For loved ones",
         image: "/images/products/pic10.jpg"
     },
     {
         id: 6,
-        name: "BOND SILVER NECKLACES",
+        name: "Bond Silver Necklases",
         price: 78.99,
         description: "Charming Series",
         image: "/images/products/pic11.jpg"
