@@ -22,3 +22,4 @@ export default function useDialogModal(Component) {
 
   return [DialogComponent, openDialog];
 }
+

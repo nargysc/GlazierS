@@ -23,14 +23,14 @@ export const AppbarHeader = styled(Typography)(() => ({
 
 export const ActionIconsContainerMobile = styled(Box)(() => ({
   display: 'flex',
-  background: Colors.secondary,
+  background: Colors.primary,
   position: "fixed",
   bottom: 0,
   left: 0,
   width: '100%',
   alignItems: 'center',
   zIndex: 99,  
-  borderTop: `1px solid ${Colors.border}`
+  borderTop: `1px solid ${Colors.bg}`
 }));
 
 export const ActionIconsContainerDesktop = styled(Box)(() => ({
