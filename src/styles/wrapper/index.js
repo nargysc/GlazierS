@@ -74,16 +74,20 @@ export const WrapperShopButton = styled(Button, {
     props.color === "secondary" && styles.primary,
   ],
 })(({ theme }) => ({
-  padding: "20px 0px",
+  padding: "10px 20px",
   color: Colors.primary,
   fontWeight: "bold",
-  backgroundColor: Colors.secondary,
+  backgroundColor: Colors.primary,
+  color: Colors.secondary,
   fontSize: "16px",
   borderRadius: "20px",
 
   [theme.breakpoints.down("sm")]: {
     padding: "10px 0px",
     fontSize: "14px",
-    backgroundColor: Colors.secondary,
+    backgroundColor: Colors.primary,
+    color: Colors.secondary,
+    "&:hover":{backgroundColor:Colors.secondary,
+     color:Colors.primary},
   },
 }));

@@ -1,14 +1,6 @@
 import {Typography, useMediaQuery } from "@mui/material";
 import { useTheme } from "@mui/system";
-import {
-  WrapperContainer,
-  WrapperContent,
-  WrapperDescription,
-  WrapperImage,
-  WrapperShopButton,
-  WrapperTitle,
-} from "../../styles//wrapper";
-
+import { WrapperContainer, WrapperContent,WrapperDescription, WrapperImage, WrapperShopButton, WrapperTitle,} from "../../styles//wrapper";
 export default function Wrapper() {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
