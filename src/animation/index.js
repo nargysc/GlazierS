@@ -12,11 +12,6 @@ const flipHorizontalBottom = keyframes`
   }
 `;
 
-/**
- * ----------------------------------------
- * animation text-pop-up-top
- * ----------------------------------------
- */
 export const textPopUpTop = keyframes` 
   0% {
     -webkit-transform: translateY(0);

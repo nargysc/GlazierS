@@ -19,7 +19,7 @@ export default function Wrapper() {
       <WrapperContent>
         <Typography variant="h6">A new PHILOSOPHY on JEWERLY</Typography>
         <WrapperTitle variant="h2">
-          New Bags
+          New Collection
         </WrapperTitle>
 
         <WrapperDescription variant="subtitle">

@@ -9,6 +9,7 @@ export const WrapperContainer = styled(Box)(({ matches, theme }) => ({
   height: "80%",
   padding: "10px 10px",
   marginLeft:"60px",
+  marginTop:"14px",
   background: Colors.secondary,
   borderRadius: "50px",
   [theme.breakpoints.down("sm")]: {
