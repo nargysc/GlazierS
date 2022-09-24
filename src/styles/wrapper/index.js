@@ -2,7 +2,7 @@ import { Box, Button, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { Colors } from "../theme";
 
-export const WrapperContainer = styled(Box)(({ matches, theme }) => ({
+export const WrapperContainer = styled(Box)(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
   width: "90%",
@@ -69,17 +69,19 @@ export const WrapperShopButton = styled(Button, {
   shouldForwardProp: (prop) => prop !== "color",
   name: "MyShopButton",
   slot: "Root",
+
   overridesResolver: (props, styles) => [
     styles.root,
-    props.color === "primary" && styles.secondary,
+    props.color === "secondary" && styles.secondary,
     props.color === "secondary" && styles.primary,
   ],
 })(({ theme }) => ({
   padding: "10px 20px",
-  color: Colors.primary,
+  color: Colors.secondary,
   fontWeight: "bold",
   backgroundColor: Colors.primary,
-  color: Colors.secondary,
+    "&:hover":{backgroundColor:Colors.secondary,
+     color:Colors.primary},
   fontSize: "16px",
   borderRadius: "20px",
 

@@ -1,4 +1,4 @@
-import { Slide, Typography } from "@mui/material";
+import { Slide } from "@mui/material";
 import { Box } from "@mui/system";
 import { useEffect, useRef, useState } from "react";
 import { MessageText, PromotionsContainer } from "../../styles/promotions";
@@ -16,10 +16,8 @@ export default function Promotions() {
               setShow(false);
             }, 2000);
     const intervalId = setInterval(() => {
-      // get next message
-      setMessageIndex((i) => (i + 1) % messages.length);
+            setMessageIndex((i) => (i + 1) % messages.length);
 
-      // slide the message in
         setShow(true);
 
       setTimeout(() => {
