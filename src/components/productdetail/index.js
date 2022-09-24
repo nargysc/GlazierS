@@ -1,20 +1,8 @@
-import {
-  Dialog,
-  DialogTitle,
-  Slide,
-  Box,
-  IconButton,
-  DialogContent,
-  Typography,
-  Button,
-  Stack,
-} from "@mui/material";
-import { useRef } from "react";
+import {Dialog,DialogTitle, Slide, Box, IconButton, DialogContent, Typography, Button,} from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import { Colors } from "../../styles/theme";
 import styled from "@emotion/styled";
-import { ProductAddToCart, Product, ProductImage } from "../../styles/product";
-import { WrapperShopButton } from "../../styles/wrapper";
+import { Product, ProductImage } from "../../styles/product";
 import IncDec from "../ui/incdec";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -71,8 +59,8 @@ export default function ProductDetail({ open, onClose, product }) {
             <ProductImage src={product.image} />
           </Product>
           <ProductDetailInfoWrapper>
-            <Typography variant="subtitle">SKU: 123</Typography>
-            <Typography variant="subtitle">Availability: 5 in stock</Typography>
+            <Typography variant="subtitle">SKU: 12</Typography>
+            <Typography variant="subtitle">Availability: 32 in stock</Typography>
             <Typography sx={{ lineHeight: 2 }} variant="h4">
               {product.name}
             </Typography>

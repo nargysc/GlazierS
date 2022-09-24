@@ -1,4 +1,4 @@
-import { Button, IconButton, Slide, TextField } from "@mui/material";
+import { IconButton, Slide, TextField } from "@mui/material";
 import { Box, styled } from "@mui/system";
 import { Colors } from "../../styles/theme";
 import SearchIcon from "@mui/icons-material/Search";
@@ -7,15 +7,14 @@ import { useUIContext } from "../../context/ui";
 
 const SearchBoxContainer = styled(Box)(({ theme }) => ({
   position: "absolute",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
   top: 0,
   left: 0,
   width: "100%",
   height: "100%",
   background: Colors.primary,
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  zIndex: 99999,
   opacity: 0.9,
 }));
 
@@ -59,7 +58,7 @@ export default function SearchBox() {
             right: 10,
           }}
         >
-          <CloseIcon sx={{ fontSize: "4rem" }} color="secondary" />
+          <CloseIcon sx={{ fontSize: "2rem" }} color="secondary" />
         </IconButton>
       </SearchBoxContainer>
     </Slide>

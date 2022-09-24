@@ -4,7 +4,6 @@ import { Colors } from "../theme";
 
 export const WrapperContainer = styled(Box)(({ matches, theme }) => ({
   display: "flex",
-  marginTop:"10px",
   justifyContent: "center",
   width: "90%",
   height: "80%",
@@ -70,24 +69,20 @@ export const WrapperShopButton = styled(Button, {
   slot: "Root",
   overridesResolver: (props, styles) => [
     styles.root,
-    props.color === "secondary" && styles.primary,
     props.color === "primary" && styles.secondary,
+    props.color === "secondary" && styles.primary,
   ],
 })(({ theme }) => ({
   padding: "20px 0px",
-  color: Colors.secondary,
+  color: Colors.primary,
   fontWeight: "bold",
-  backgroundColor: Colors.primary,
-   "&:hover": { backgroundColor: Colors.secondary,
-    color: Colors.primary},
+  backgroundColor: Colors.secondary,
   fontSize: "16px",
   borderRadius: "20px",
 
   [theme.breakpoints.down("sm")]: {
     padding: "10px 0px",
     fontSize: "14px",
-    backgroundColor: Colors.primary,
-     "&:hover": { backgroundColor: Colors.secondary,
-    color: Colors.primary},
+    backgroundColor: Colors.secondary,
   },
 }));

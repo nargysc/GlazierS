@@ -5,7 +5,7 @@ import { Colors } from "../theme";
 
 export const AppbarContainer = styled(Box)(() => ({    
     display: 'flex',
-    marginTop:2,
+    marginTop: 2,
     background: Colors.secondary,
     justifyContent: 'center',
     fontFamily: '"Roboto", "sans-serif"',
