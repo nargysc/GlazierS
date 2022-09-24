@@ -13,7 +13,7 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    document.title = "React Material UI - Home";
+    document.title = "Glazier.";
   }, []);
   return (
     <ThemeProvider theme={theme}>
@@ -31,7 +31,7 @@ function App() {
             <Promotions />
             <SearchBox />
             <Box display="flex" justifyContent="center" sx={{ p: 4 }}>
-              <Typography variant="h4">Our Products</Typography>
+              <Typography variant="h4">Our Collection</Typography>
             </Box>
             <Products />
             <Footer />
