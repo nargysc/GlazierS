@@ -1,23 +1,6 @@
-import {
-  Box,
-  Divider,
-  List,
-  ListItemButton,
-  ListItemIcon,
-  ListItemText,
-  Stack,
-  Typography,
-} from "@mui/material";
-import {
-  AppbarActionIcons,
-  AppbarContainer,
-  AppbarHeader,
-  MyList,
-} from "../../styles/appbar";
-import PersonIcon from "@mui/icons-material/Person";
-import FavoriteIcon from "@mui/icons-material/Favorite";
+import {ListItemButton,ListItemIcon,ListItemText} from "@mui/material";
+import {AppbarContainer,AppbarHeader,MyList} from "../../styles/appbar";
 import SearchIcon from "@mui/icons-material/Search";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Actions from "./actions";
 import { useUIContext } from "../../context/ui";
 
