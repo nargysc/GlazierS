@@ -47,27 +47,27 @@ export default function ProductDetail({ open, onClose, product }) {
           alignItems="center"
           justifyContent={"space-between"}
         >
-          Product title
+          Our Collection
           <IconButton onClick={onClose}>
             <CloseIcon />
           </IconButton>
         </Box>
       </DialogTitle>
       <DialogContent>
-        <ProductDetailWrapper display={"flex"} flexDirection={matches ? "column" : "row"}>
-          <Product sx={{ mr: 4 }}>
-            <ProductImage src={product.image} />
+        <ProductDetailWrapper display={"flex"} 
+        flexDirection={matches ? "column" : "row"}>
+          <Product width={360} sx={{ mr: 3 }}>
+            <ProductImage src={product.image}/>
           </Product>
           <ProductDetailInfoWrapper>
-            <Typography variant="subtitle">SKU: 12</Typography>
-            <Typography variant="subtitle">Availability: 32 in stock</Typography>
+            <Typography variant="subtitle">SKU: 17</Typography>
+            <Typography variant="subtitle">Availability: 43 in stock</Typography>
             <Typography sx={{ lineHeight: 2 }} variant="h4">
               {product.name}
             </Typography>
             <Typography variant="body">
               {product.description}
-              {product.description}
-              {product.description}
+
             </Typography>
             <Box
               sx={{ mt: 4 }}
@@ -81,15 +81,14 @@ export default function ProductDetail({ open, onClose, product }) {
             <Box
               display="flex"
               alignItems="center"
-              sx={{ mt: 4, color: Colors.light }}
+              sx={{ mt: 4, color: Colors.primary }}
             >
               <FavoriteIcon sx={{ mr: 2 }} />
               Add to wishlist
             </Box>
             <Box
-              sx={{
-                mt: 4,
-                color: Colors.dove_gray,
+              sx={{mt: 4, 
+                color: Colors.primary,
               }}
             >
               <FacebookIcon />
