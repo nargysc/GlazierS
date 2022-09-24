@@ -10,7 +10,7 @@ import Footer from "./components/footer";
 import Promotions from "./components/promotions";
 import SearchBox from "./components/search";
 import { useEffect } from "react";
-
+import Contact from "./components/contact";
 function App() {
   useEffect(() => {
     document.title = "Glazier.";
@@ -34,6 +34,7 @@ function App() {
               <Typography variant="h4">Our Collection</Typography>
             </Box>
             <Products />
+            <Contact /> 
             <Footer />
           </UIProvider>
         </Stack>
