@@ -15,6 +15,7 @@ export const WrapperContainer = styled(Box)(({ matches, theme }) => ({
   [theme.breakpoints.down("sm")]: {
     flexDirection: "column",
     alignItems: "center",
+    marginLeft:"20px",
   },
 }));
 
