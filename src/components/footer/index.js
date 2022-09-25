@@ -37,6 +37,11 @@ export default function Footer() {
             <TwitterIcon sx={{ mr: 1 }} />
             <InstagramIcon />
           </Box>
+           <ListItemText>
+              <Typography lineHeight={2} variant="caption2">
+                 © Jai & Nargiz
+              </Typography>
+            </ListItemText>
         </Grid>
         <Grid item md={6} lg={2}>
           <FooterTitle variant="body1">information</FooterTitle>
