@@ -1,4 +1,4 @@
-import {Typography, useMediaQuery } from "@mui/material";
+import {useMediaQuery } from "@mui/material";
 import { useTheme } from "@mui/system";
 import { WrapperContainer, WrapperContent,WrapperDescription, WrapperImage, WrapperShopButton, WrapperTitle,} from "../../styles//wrapper";
 
@@ -10,9 +10,8 @@ export default function Wrapper() {
     <WrapperContainer >
       <WrapperImage src="/images/wrapper/banner.png" />
       <WrapperContent>
-        <Typography variant="h6">A new PHILOSOPHY on JEWERLY</Typography>
         <WrapperTitle variant="h2">
-          New Collection
+          A new philosophy on jewerly
         </WrapperTitle>
 
         <WrapperDescription variant="subtitle">
