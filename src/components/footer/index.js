@@ -39,7 +39,7 @@ export default function Footer() {
           </Box>
            <ListItemText>
               <Typography lineHeight={2} variant="caption2">
-                 © Jai & Nargiz
+                 © Nargiz
               </Typography>
             </ListItemText>
         </Grid>
